@@ -8,12 +8,133 @@
     tools:context="com.hackwestern.dema.safeto.MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:layout_width="91dp"
+        android:layout_height="22dp"
+        android:text="Stay Safe!"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.534"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.068" />
 
+    <TextureView
+        android:id="@+id/textureView"
+        android:layout_width="170dp"
+        android:layout_height="97dp"
+        tools:layout_editor_absoluteX="225dp"
+        tools:layout_editor_absoluteY="221dp" />
+
+    <TextureView
+        android:id="@+id/textureView2"
+        android:layout_width="168dp"
+        android:layout_height="97dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="221dp" />
+
+    <TextureView
+        android:id="@+id/textureView3"
+        android:layout_width="170dp"
+        android:layout_height="96dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="366dp" />
+
+    <TextureView
+        android:id="@+id/textureView4"
+        android:layout_width="170dp"
+        android:layout_height="97dp"
+        tools:layout_editor_absoluteX="225dp"
+        tools:layout_editor_absoluteY="77dp" />
+
+    <TextureView
+        android:id="@+id/textureView5"
+        android:layout_width="170dp"
+        android:layout_height="96dp"
+        tools:layout_editor_absoluteX="225dp"
+        tools:layout_editor_absoluteY="366dp" />
+
+    <TextureView
+        android:id="@+id/textureView6"
+        android:layout_width="168dp"
+        android:layout_height="97dp"
+        tools:layout_editor_absoluteX="227dp"
+        tools:layout_editor_absoluteY="221dp" />
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="379dp"
+        android:layout_height="106dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="476dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="172dp"
+        android:layout_height="97dp"
+        android:text="Search An Area"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="221dp" />"
+        tools:layout_editor_absoluteX="252dp"
+        tools:layout_editor_absoluteY="389dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="172dp"
+        android:layout_height="97dp"
+        android:text="walk safe"
+        tools:layout_editor_absoluteX="223dp"
+        tools:layout_editor_absoluteY="77dp" />"
+        tools:layout_editor_absoluteX="252dp"
+        tools:layout_editor_absoluteY="389dp" />
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="172dp"
+        android:layout_height="97dp"
+        android:text="Settings"
+        tools:layout_editor_absoluteX="223dp"
+        tools:layout_editor_absoluteY="366dp" />"
+        tools:layout_editor_absoluteX="252dp"
+        tools:layout_editor_absoluteY="389dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="172dp"
+        android:layout_height="97dp"
+        android:text="Report a crime"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="366dp" />"
+        tools:layout_editor_absoluteX="252dp"
+        tools:layout_editor_absoluteY="389dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="172dp"
+        android:layout_height="97dp"
+        android:text="Dashboard"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="77dp" />"
+        tools:layout_editor_absoluteX="252dp"
+        tools:layout_editor_absoluteY="389dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="172dp"
+        android:layout_height="97dp"
+        android:text="Call Campus Security"
+        tools:layout_editor_absoluteX="223dp"
+        tools:layout_editor_absoluteY="221dp" />
+
+    <SearchView
+        android:layout_width="171dp"
+        android:layout_height="102dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="221dp" /><![CDATA[
+
+    "
+        tools:layout_editor_absoluteX="252dp"
+        tools:layout_editor_absoluteY="389dp" />
+
+]]>
 </android.support.constraint.ConstraintLayout>
