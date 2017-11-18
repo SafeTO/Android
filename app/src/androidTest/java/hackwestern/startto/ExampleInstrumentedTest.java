@@ -1,4 +1,4 @@
-package com.hackwestern.dema.safeto;
+package hackwestern.startto;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.hackwestern.dema.safeto", appContext.getPackageName());
+        assertEquals("hackwestern.startto", appContext.getPackageName());
     }
 }

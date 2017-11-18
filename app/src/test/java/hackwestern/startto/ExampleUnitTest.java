@@ -1,4 +1,4 @@
-package com.hackwestern.dema.safeto;
+package hackwestern.startto;
 
 import org.junit.Test;
 
