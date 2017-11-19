@@ -12,6 +12,5 @@ public class ReportActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(hackwestern.safeto.R.layout.activity_report);
 
-        requestButton =
     }
 }
