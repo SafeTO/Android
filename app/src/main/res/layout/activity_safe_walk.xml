@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="hackwestern.startto.safeWalkActivity">
+    tools:context="hackwestern.safeto.safeWalkActivity">
 
     <com.google.android.gms.maps.MapView
         android:id="@+id/mapView"
@@ -39,7 +39,7 @@
         android:layout_height="127dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:text="Requesting a safe walk, enables someone at our office to call you and talk to you during your walk. If an LTE connection is available they will also be monitoring your walk via Google maps, therefore we request to enter the location you're heading"
+        android:text="Requesting a safe walk, enables someone at our office to call you and talk to you during your walk. If an LTE connection is available they will also be monitoring your walk via Google maps, therefore we request you to enter the location you're heading."
         android:textAlignment="viewStart"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textSize="16sp"

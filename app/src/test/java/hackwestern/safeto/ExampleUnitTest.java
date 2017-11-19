@@ -1,4 +1,4 @@
-package hackwestern.startto;
+package hackwestern.safeto;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package hackwestern.startto;
+package hackwestern.safeto;
 
 import android.content.res.Configuration;
 import android.os.Bundle;

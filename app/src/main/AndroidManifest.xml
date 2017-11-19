@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="hackwestern.startto">
+    package="hackwestern.safeto">
 
     <application
         android:allowBackup="true"
@@ -9,21 +9,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name="hackwestern.safeto.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".safeWalkActivity" />
+        <activity android:name="hackwestern.safeto.safeWalkActivity" />
         <activity
-            android:name=".SettingsActivity"
+            android:name="hackwestern.safeto.SettingsActivity"
             android:label="@string/title_activity_settings" />
-        <activity android:name=".DashboardActivity" />
-        <activity android:name=".ResourcesActivity" />
-        <activity android:name=".SearchActivity" />
-        <activity android:name=".ReportActivity"></activity>
+        <activity android:name="hackwestern.safeto.DashboardActivity" />
+        <activity android:name="hackwestern.safeto.ResourcesActivity" />
+        <activity android:name="hackwestern.safeto.SearchActivity" />
+        <activity android:name="hackwestern.safeto.ReportActivity"></activity>
 
         <meta-data
             android:name="preloaded_fonts"

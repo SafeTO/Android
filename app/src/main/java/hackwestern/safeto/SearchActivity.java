@@ -1,4 +1,4 @@
-package hackwestern.startto;
+package hackwestern.safeto;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -26,7 +26,7 @@ public class SearchActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_search);
+        setContentView(hackwestern.safeto.R.layout.activity_search);
     }
 
 //    int PLACE_PICKER_REQUEST = 1;

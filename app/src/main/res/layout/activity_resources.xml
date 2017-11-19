@@ -4,6 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="hackwestern.startto.ResourcesActivity">
+    tools:context="hackwestern.safeto.ResourcesActivity">
 
 </android.support.constraint.ConstraintLayout>

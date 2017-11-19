@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="hackwestern.startto.ReportActivity">
+    tools:context="hackwestern.safeto.ReportActivity">
 
     <TextView
         android:id="@+id/textView"
@@ -80,7 +80,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:text="If you have seen, or know, or heard of a crime. Please report it and inform your community in the details!"
+        android:text="If you have seen, know, or heard of a crime. Please report it and inform your community of the details!"
         android:textAlignment="center"
         android:textColor="@color/common_google_signin_btn_text_dark_focused"
         android:textSize="18sp"

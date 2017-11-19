@@ -1,10 +1,7 @@
-package hackwestern.startto;
+package hackwestern.safeto;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.app.Activity;
-import android.os.Handler;
-import android.os.Message;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -21,15 +18,15 @@ public class MainActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(hackwestern.safeto.R.layout.activity_main);
 
         /* Load buttons */
-        dashboardButton = (Button) findViewById(R.id.dashboardBtn);
-        safewalkButton = findViewById(R.id.safewalkBtn);
-        searchButton = findViewById(R.id.searchBtn);
-        resourcesButton = findViewById(R.id.resourcesBtn);
-        reportButton = findViewById(R.id.reportBtn);
-        settingButton = findViewById(R.id.settingBtn);
+        dashboardButton = (Button) findViewById(hackwestern.safeto.R.id.dashboardBtn);
+        safewalkButton = findViewById(hackwestern.safeto.R.id.safewalkBtn);
+        searchButton = findViewById(hackwestern.safeto.R.id.searchBtn);
+        resourcesButton = findViewById(hackwestern.safeto.R.id.resourcesBtn);
+        reportButton = findViewById(hackwestern.safeto.R.id.reportBtn);
+        settingButton = findViewById(hackwestern.safeto.R.id.settingBtn);
 
         //Clickers for buttons
         dashboardButton.setOnClickListener(new View.OnClickListener() {
