@@ -21,7 +21,7 @@ public class MainActivity extends Activity {
         setContentView(hackwestern.safeto.R.layout.activity_main);
 
         /* Load buttons */
-        dashboardButton = (Button) findViewById(hackwestern.safeto.R.id.dashboardBtn);
+        dashboardButton = findViewById(hackwestern.safeto.R.id.dashboardBtn);
         safewalkButton = findViewById(hackwestern.safeto.R.id.safewalkBtn);
         searchButton = findViewById(hackwestern.safeto.R.id.searchBtn);
         resourcesButton = findViewById(hackwestern.safeto.R.id.resourcesBtn);
